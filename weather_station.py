@@ -158,7 +158,7 @@ class WeatherStation:
         weather_data.setMeasurements(78, 90,29.2)
         
         # un-register the observer
-        weather_data.removeObserver(current_display)
+        weather_data.removeObserver(statistics_display)
         weather_data.setMeasurements(120, 100,1000)
     
         
